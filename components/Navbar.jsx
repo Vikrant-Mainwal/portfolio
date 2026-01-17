@@ -51,7 +51,7 @@ const Navbar = () => {
             className="ml-2"
           > */}
             <ThemeToggle />
-            {/* {theme === 'light' ? '🌙' : '☀️'} */}
+            {/*  */}
           {/* </Button> */}
         </div>
       </div>

@@ -105,7 +105,7 @@ const Skills = () => {
             {skills.map((interest, index) => (
               <span 
                 key={index}
-                className="px-4 py-2 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900/30 dark:to-purple-900/30 text-indigo-700 dark:text-indigo-300 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg animate-[fade-in_0.5s_ease-out] cursor-default"
+                className="px-4 py-2  from-indigo-100 to-purple-100 dark:from-indigo-900 dark:to-purple-900 text-indigo-700 dark:text-indigo-300 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg animate-[fade-in_0.5s_ease-out] cursor-default border"
                 style={{ animationDelay: `${index * 0.1}s`, animationFillMode: 'both' }}
               >
                 {interest}

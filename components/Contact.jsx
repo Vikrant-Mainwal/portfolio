@@ -3,9 +3,6 @@ import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
-// import { Input } from '@/components/ui/input';
-// import { Textarea } from '@/components/ui/textarea';
-// import { Github, Linkedin, Youtube } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -102,7 +99,7 @@ const Contact = () => {
                     href="https://github.com/Vikrant-Mainwal" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_0.6s_both]"
+                    className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_0.6s_both] text-white"
                   >
                     <FaGithub size={24} />
                     <span>GitHub</span>
@@ -111,7 +108,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/vikrant-mainwal/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_0.8s_both]"
+                    className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_0.8s_both] text-white"
                   >
                     <FaLinkedin size={24} />
                     <span>LinkedIn</span>
@@ -149,7 +146,7 @@ const Contact = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full transition-all duration-300 focus:scale-105"
+                    className="flex h-10 w-full rounded-md px-3 py-2 text-base  disabled:cursor-not-allowed disabled:opacity-50 md:text-sm transition-all duration-300 outline-none border"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -164,7 +161,7 @@ const Contact = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full transition-all duration-300 focus:scale-105"
+                    className="flex h-10 w-full rounded-md px-3 py-2 text-base  disabled:cursor-not-allowed disabled:opacity-50 md:text-sm transition-all duration-300 outline-none border-[1px]"
                     placeholder="Enter your email"
                   />
                 </div>
@@ -178,7 +175,7 @@ const Contact = () => {
                     required
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full min-h-[120px] transition-all duration-300 focus:scale-105"
+                    className="w-full min-h-[120px] flex rounded-md px-3 py-2 text-base  disabled:cursor-not-allowed disabled:opacity-50 md:text-sm transition-all duration-300 outline-none border-[1px]"
                     placeholder="Tell me about your project or just say hello!"
                   />
                 </div>

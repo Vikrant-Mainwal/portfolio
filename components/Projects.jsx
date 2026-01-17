@@ -93,7 +93,7 @@ const Projects = () => {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 rounded-full text-sm transition-all duration-300 hover:scale-105 hover:bg-indigo-200 dark:hover:bg-indigo-800/50"
+                      className="px-3 py-1 border light:text-black dark:text-purple-400 rounded-full text-sm transition-all duration-300 hover:scale-105"
                     >
                       {tech}
                     </span>

@@ -16,9 +16,9 @@ export default function ThemeToggle() {
         console.log("theme before:", theme)
         setTheme(theme === "dark" ? "light" : "dark")
       }}
-      className="px-3 py-2 border rounded"
+      className="px-3 py-2 cursor-pointer transition-transform duration-500 ease-in-out active:rotate-360"
     >
-      {theme}
+      {theme === 'light' ? '🌙' : '☀️'}
     </button>
   )
 }
