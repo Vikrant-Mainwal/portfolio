@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "Food Delhivery",
       description:
-        "A modern, interactive resume builder with real-time preview and multiple templates. Built with React.js and Tailwind CSS.",
+        "Food Del is a full-stack food delivery web application built using React.js. It allows users to browse food items, add them to a cart, and place orders through a smooth and responsive interface.",
       image:image1,
       technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML/CSS"],
       liveLink: "https://food-del-frontend-ecru.vercel.app/",
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: "Triyuginarayan Mandap",
       description:
-        "Real-time messaging application with user authentication, group chats, and file sharing capabilities.",
+        "Triyuginarayan-mandap is a modern, responsive website built using Next.js and Tailwind CSS for a wedding venue.",
       image:Triyugi1,
       technologies: ["React.js", "Node.js", "Socket.io", "MongoDB"],
       liveLink: "https://www.triyuginarayanmandap.com/",
@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: "Triyuginarayan Shaadi",
       description:
-        "Comprehensive classroom management system for teachers and students with assignment tracking and grading.",
+        "Triyuginarayan-shaadi is a modern, responsive website built using Next.js and Tailwind CSS for a wedding venue.",
       image:Triyugi,
       technologies: ["Next.js", "MongoDB", "Express.js", "Tailwind CSS"],
       liveLink: "https://www.triyuginarayanshaadi.com/",
@@ -39,7 +39,7 @@ const Projects = () => {
     {
       title: "Prayagraj Tourism",
       description:
-        "Professional admin dashboard for internship management with analytics, user management, and reporting.",
+        "Prayagraj Tourism is a modern tourism website developed with React.js and Tailwind CSS, showcasing famous places, events, and historical importance of Prayagraj.",
       image: Prayag,
       technologies: ["React.js", "Chart.js", "REST APIs", "Bootstrap"],
       liveLink: "https://prayagraj-tourism.vercel.app/",
@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-20 px-4 bg-red-10 dark:bg-slate-900/50"
+      className="py-20 px-4"
     >
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-[fade-in_0.8s_ease-out]">

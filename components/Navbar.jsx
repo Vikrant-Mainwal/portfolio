@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 // import { useTheme } from './ThemeProvider';
 import { FaGithub, FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-// import ThemeToggle from './ThemeToggle';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   // const { theme, toggleTheme } = useTheme();
@@ -50,7 +50,7 @@ const Navbar = () => {
             // onClick={toggleTheme}
             className="ml-2"
           > */}
-            {/* <ThemeToggle /> */}
+            <ThemeToggle />
             {/* {theme === 'light' ? '🌙' : '☀️'} */}
           {/* </Button> */}
         </div>

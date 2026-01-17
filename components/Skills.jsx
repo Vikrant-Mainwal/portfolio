@@ -60,7 +60,7 @@ const Skills = () => {
 
 
   return (
-    <section id="skills" className="py-20 px-4 bg-slate-50 dark:bg-slate-900/50">
+    <section id="skills" className="py-20 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-[fade-in_0.8s_ease-out]">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">

@@ -17,7 +17,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <Card className="p-6 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.2s_both]">
+            <Card className="p-6 hover:shadow-xl h-60 transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.2s_both]">
               <CardContent className="p-0">
                 <h3 className="text-2xl font-semibold mb-4 text-indigo-600 dark:text-indigo-400">Background</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -28,7 +28,7 @@ const About = () => {
               </CardContent>
             </Card>
 
-            <Card className="p-6 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.4s_both]">
+            <Card className="p-6 h-60 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.4s_both]">
               <CardContent className="p-0">
                 <h3 className="text-2xl font-semibold mb-4 text-purple-600 dark:text-purple-400">Interests</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           <div className="space-y-6">
-            <Card className="p-6 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.6s_both]">
+            <Card className="p-6 h-60 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.6s_both]">
               <CardContent className="p-0">
                 <h3 className="text-2xl font-semibold mb-4 text-rose-600 dark:text-rose-400">Goals</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -52,7 +52,7 @@ const About = () => {
               </CardContent>
             </Card>
 
-            <Card className="p-6 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.8s_both]">
+            <Card className="p-6 h-60 hover:shadow-xl transition-all duration-500 hover:-translate-y-2 animate-[fade-in_0.8s_ease-out_0.8s_both]">
               <CardContent className="p-0">
                 <h3 className="text-2xl font-semibold mb-4 text-emerald-600 dark:text-emerald-400">Philosophy</h3>
                 <p className="text-muted-foreground leading-relaxed">
