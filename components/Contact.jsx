@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 // import { Input } from '@/components/ui/input';
 // import { Textarea } from '@/components/ui/textarea';
 // import { Github, Linkedin, Youtube } from 'lucide-react';
@@ -14,14 +15,6 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   alert({
-  //     title: "Message Sent!",
-  //     description: "Thank you for reaching out. I'll get back to you soon!",
-  //   });
-  //   setFormData({ name: '', email: '', message: '' });
-  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -106,32 +99,32 @@ const Contact = () => {
               <CardContent>
                 <div className="flex space-x-6">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/Vikrant-Mainwal" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_0.6s_both]"
                   >
-                    {/* <Github size={24} /> */}
+                    <FaGithub size={24} />
                     <span>GitHub</span>
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/vikrant-mainwal/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_0.8s_both]"
                   >
-                    {/* <Linkedin size={24} /> */}
+                    <FaLinkedin size={24} />
                     <span>LinkedIn</span>
                   </a>
-                  <a 
+                  {/* <a 
                     href="https://youtube.com/@storylovemotiv" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 p-3 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 hover:scale-105 hover:shadow-lg animate-[fade-in_0.5s_ease-out_1s_both]"
                   >
-                    {/* <Youtube size={24} /> */}
+                   <Youtube size={24} /> 
                     <span>YouTube</span>
-                  </a>
+                  </a> */}
                 </div>
               </CardContent>
             </Card>

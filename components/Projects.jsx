@@ -3,6 +3,11 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { FaGithub } from "react-icons/fa6";
+import Prayag from '../asset/prayagraj.png'
+import Triyugi from '../asset/triyugi-shaadi.png'
+import Triyugi1 from '../asset/triyugi-mandap.png'
+import image1 from '../asset/image.png'
+import Image from "next/image";
 
 const Projects = () => {
   const projects = [
@@ -10,8 +15,7 @@ const Projects = () => {
       title: "Food Delhivery",
       description:
         "A modern, interactive resume builder with real-time preview and multiple templates. Built with React.js and Tailwind CSS.",
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop",
+      image:image1,
       technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML/CSS"],
       liveLink: "https://food-del-frontend-ecru.vercel.app/",
       githubLink: "https://github.com/Vikrant-Mainwal/food-del-frontend",
@@ -20,8 +24,7 @@ const Projects = () => {
       title: "Triyuginarayan Mandap",
       description:
         "Real-time messaging application with user authentication, group chats, and file sharing capabilities.",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+      image:Triyugi1,
       technologies: ["React.js", "Node.js", "Socket.io", "MongoDB"],
       liveLink: "https://www.triyuginarayanmandap.com/",
     },
@@ -29,8 +32,7 @@ const Projects = () => {
       title: "Triyuginarayan Shaadi",
       description:
         "Comprehensive classroom management system for teachers and students with assignment tracking and grading.",
-      image:
-        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
+      image:Triyugi,
       technologies: ["Next.js", "MongoDB", "Express.js", "Tailwind CSS"],
       liveLink: "https://www.triyuginarayanshaadi.com/",
     },
@@ -38,8 +40,7 @@ const Projects = () => {
       title: "Prayagraj Tourism",
       description:
         "Professional admin dashboard for internship management with analytics, user management, and reporting.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      image: Prayag,
       technologies: ["React.js", "Chart.js", "REST APIs", "Bootstrap"],
       liveLink: "https://prayagraj-tourism.vercel.app/",
       githubLink: "https://github.com/Vikrant-Mainwal/prayagraj-tourism",
@@ -49,7 +50,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-20 px-4 bg-slate-50 dark:bg-slate-900/50"
+      className="py-20 px-4 bg-red-10 dark:bg-slate-900/50"
     >
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-[fade-in_0.8s_ease-out]">
@@ -73,7 +74,7 @@ const Projects = () => {
               }}
             >
               <div className="overflow-hidden rounded-t-lg">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"

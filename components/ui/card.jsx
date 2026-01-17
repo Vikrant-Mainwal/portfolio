@@ -1,6 +1,6 @@
 "use client";
 import React from "react"
-// import { cn } from "@/lib/utils" // optional
+// import { cn } from "@/lib/utils"
 
 export const Card = React.forwardRef(({ className = "", ...props }, ref) => (
   <div

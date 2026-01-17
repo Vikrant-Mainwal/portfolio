@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 // import { useTheme } from './ThemeProvider';
 import { FaGithub, FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+// import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   // const { theme, toggleTheme } = useTheme();
@@ -33,24 +34,25 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-4">
           <div className="hidden sm:flex space-x-2">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
+            <a href="https://github.com/Vikrant-Mainwal" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
               <FaGithub size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/Vikrant-Mainwal" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
+            <a href="https://www.linkedin.com/in/vikrant-mainwal/" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
               <FaLinkedin size={20} />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
+            <a href="https://www.instagram.com/vikrantmainwal/" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-indigo-500 transition-colors">
               <FaInstagram size={20} />
             </a>
           </div>
-          <Button
+          {/* <Button
             variant="outline"
             size="sm"
             // onClick={toggleTheme}
             className="ml-2"
-          >
-            {/* {theme === 'light' ? '🌙' : '☀️'} */}light
-          </Button>
+          > */}
+            {/* <ThemeToggle /> */}
+            {/* {theme === 'light' ? '🌙' : '☀️'} */}
+          {/* </Button> */}
         </div>
       </div>
     </header>

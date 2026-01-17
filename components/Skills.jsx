@@ -36,6 +36,28 @@ const Skills = () => {
       ]
     }
   ];
+  const skills = [
+  "Data Structures & Algorithms",
+  "Problem Solving",
+  "React.js",
+  "Next.js",
+  "JavaScript (ES6+)",
+  "HTML & CSS",
+  "Tailwind CSS",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "REST APIs",
+  "Authentication (JWT / NextAuth)",
+  "System Design (Basics)",
+  "Performance Optimization",
+  "Responsive Web Design",
+  "Git & GitHub",
+  "SQL",
+  "Power BI",
+  "Python (Basics)"
+];
+
 
   return (
     <section id="skills" className="py-20 px-4 bg-slate-50 dark:bg-slate-900/50">
@@ -45,11 +67,11 @@ const Skills = () => {
             Skills & Expertise
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Technical skills and proficiency levels across different technologies
+            Technical skills
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        {/* <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <div 
               key={index} 
@@ -77,17 +99,10 @@ const Skills = () => {
               </div>
             </div>
           ))}
-        </div>
-
+        </div> */}
         <div className="mt-16 text-center animate-[fade-in_0.8s_ease-out_0.6s_both]">
-          <h3 className="text-2xl font-semibold mb-8 text-purple-600 dark:text-purple-400">
-            Additional Interests
-          </h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {[
-              "Data Structure And Algorithm", "User Experience", "System Design", 
-              , "Performance Optimization", "Code Architecture"
-            ].map((interest, index) => (
+            {skills.map((interest, index) => (
               <span 
                 key={index}
                 className="px-4 py-2 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900/30 dark:to-purple-900/30 text-indigo-700 dark:text-indigo-300 rounded-full transition-all duration-300 hover:scale-110 hover:shadow-lg animate-[fade-in_0.5s_ease-out] cursor-default"

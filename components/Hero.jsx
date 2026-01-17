@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 // import { ArrowDown } from 'react-icons';
-import { GitHub, Linkedin, Youtube } from 'react-icons';
 
 const Hero = () => {
   const scrollToProjects = () => {
